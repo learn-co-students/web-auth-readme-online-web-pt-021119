@@ -1280,3 +1280,1540 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+Started GET "/" for ::1 at 2019-09-25 04:21:56 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 564ms (Views: 551.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for ::1 at 2019-09-25 04:21:57 -0400
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2019-09-25 04:21:57 -0400
+Started GET "/" for ::1 at 2019-09-25 04:31:08 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `redirect_to_foursquare_url' for #<SearchesController:0x007f82c364b480>):
+  
+app/controllers/application_controller.rb:14:in `authenticate_user'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__1040306063705627749_70099798474860 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (110.2ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (234.6ms)
+Started GET "/" for ::1 at 2019-09-25 04:32:37 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=M2SX4DOOOSDSMQGSQCXMFNEHI3OIVO0BNPB45DIVTGO3HYVX" for ::1 at 2019-09-25 04:32:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/Jose/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/Jose/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/Jose/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (7.7ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.1ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (158.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__1040306063705627749_70099800448800 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.7ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (179.6ms)
+Started GET "/search" for ::1 at 2019-09-25 04:33:18 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=CFXDLCXQPXDXCYIBMJZM3YZCWDQZNYZU0BWHZAIT3OO20WT1" for ::1 at 2019-09-25 04:33:25 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/Jose/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/Jose/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/Jose/.rvm/rubies/ruby-2.4.0/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (2.0ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__1040306063705627749_70099810260040 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.8ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (170.2ms)
+Started GET "/friends" for ::1 at 2019-09-25 04:53:56 -0400
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=XTXY4FBHPV0ZEHN4EPOUR1YSC54SBWKJC2QP5BCFONUPKWQ5" for ::1 at 2019-09-25 04:54:00 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"XTXY4FBHPV0ZEHN4EPOUR1YSC54SBWKJC2QP5BCFONUPKWQ5"}
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<html>
+<head>
+<title>foursquare</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+body,html {height: 100%;}
+body {
+  background: #ffffff;
+  color: #4c4c4c;
+  font: 13px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0cbadf;
+  text-decoration: none;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#container {
+  height: 230px;
+  margin: -165px auto 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 32em;
+}
+.logomark {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  bottom: 20px;
+  display: block;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.wordmark {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.formStyle {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  background: #fcfcfc;
+  border: 1px solid #d9d9d9;
+  color: #4c4c4c;
+  font-family: inherit;
+  font-size: 13px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  padding: 7px;
+  width: 220px;
+  -moz-transition-duration: .33s;
+  -moz-transition-property: background, border, color, opacity, box-shadow;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, border, color, opacity, box-shadow;
+  transition-duration: .33s;
+  transition-property: background, border, color, opacity, box-shadow;
+}
+.formStyle:hover {border: 1px solid #bbb;}
+.formStyle:focus {
+  background: #fefefe;
+  border: 1px solid #b3b3b3;
+  color: #333;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.greenButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #A7E300;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100));
+  background: -moz-linear-gradient(top,  #A7E300,  #99D100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7E300', endColorstr='#99D100');
+  border: 1px solid #87b800;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+  text-transform: uppercase;
+}
+.greenButton:hover {
+  background: #b2eb14;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2eb14), to(#a4da14));
+  background: -moz-linear-gradient(top,  #b2eb14,  #a4da14);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb14', endColorstr='#a4da14');
+}
+.greenButton:active {
+  background: #99D100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#99D100), to(#A7E300));
+  background: -moz-linear-gradient(top,  #99D100,  #A7E300);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99D100', endColorstr='#A7E300');
+}
+@-webkit-keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;transform:none
+  }
+}
+@keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    -ms-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    -ms-transform:none;
+    transform:none
+  }
+}
+@media screen and (max-width: 340px) {
+  #container {
+    height: auto !important;
+    margin: 40px auto 0 !important;
+    top: 0 !important;
+    width: 22em !important;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <img class="wordmark" src="/wordmark.png" />
+    <h1>We couldn't find the page you're looking for.</h1>
+    <h2>Search for great places nearby:</h2>
+    <form action="https://foursquare.com/explore" method="GET">
+      <input type="text" class="formStyle" name="q">
+      <button name="submit" class="greenButton" type="submit">Search</button>
+    </form>
+  </div>
+  <img class="logomark" width="40" src="/logomark.png">
+  <script src="https://www.google-analytics.com/ga.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker('UA-2322480-5');
+      pageTracker._trackPageview('/404');
+    } catch(err) {}
+  </script>
+</body>
+</html>
+'):
+  
+app/controllers/sessions_controller.rb:14:in `create'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__1040306063705627749_70099823996280 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (75.1ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (178.2ms)
+Started GET "/friends" for ::1 at 2019-09-25 04:54:37 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=5QIZMT1AOAMRFK0HIZCGLDBB1EJ0ZMJODMATUWLWEPRKUNUB" for ::1 at 2019-09-25 04:54:43 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5QIZMT1AOAMRFK0HIZCGLDBB1EJ0ZMJODMATUWLWEPRKUNUB"}
+Completed 500 Internal Server Error in 203ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<html>
+<head>
+<title>foursquare</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+body,html {height: 100%;}
+body {
+  background: #ffffff;
+  color: #4c4c4c;
+  font: 13px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0cbadf;
+  text-decoration: none;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#container {
+  height: 230px;
+  margin: -165px auto 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 32em;
+}
+.logomark {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  bottom: 20px;
+  display: block;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.wordmark {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.formStyle {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  background: #fcfcfc;
+  border: 1px solid #d9d9d9;
+  color: #4c4c4c;
+  font-family: inherit;
+  font-size: 13px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  padding: 7px;
+  width: 220px;
+  -moz-transition-duration: .33s;
+  -moz-transition-property: background, border, color, opacity, box-shadow;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, border, color, opacity, box-shadow;
+  transition-duration: .33s;
+  transition-property: background, border, color, opacity, box-shadow;
+}
+.formStyle:hover {border: 1px solid #bbb;}
+.formStyle:focus {
+  background: #fefefe;
+  border: 1px solid #b3b3b3;
+  color: #333;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.greenButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #A7E300;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100));
+  background: -moz-linear-gradient(top,  #A7E300,  #99D100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7E300', endColorstr='#99D100');
+  border: 1px solid #87b800;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+  text-transform: uppercase;
+}
+.greenButton:hover {
+  background: #b2eb14;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2eb14), to(#a4da14));
+  background: -moz-linear-gradient(top,  #b2eb14,  #a4da14);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb14', endColorstr='#a4da14');
+}
+.greenButton:active {
+  background: #99D100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#99D100), to(#A7E300));
+  background: -moz-linear-gradient(top,  #99D100,  #A7E300);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99D100', endColorstr='#A7E300');
+}
+@-webkit-keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;transform:none
+  }
+}
+@keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    -ms-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    -ms-transform:none;
+    transform:none
+  }
+}
+@media screen and (max-width: 340px) {
+  #container {
+    height: auto !important;
+    margin: 40px auto 0 !important;
+    top: 0 !important;
+    width: 22em !important;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <img class="wordmark" src="/wordmark.png" />
+    <h1>We couldn't find the page you're looking for.</h1>
+    <h2>Search for great places nearby:</h2>
+    <form action="https://foursquare.com/explore" method="GET">
+      <input type="text" class="formStyle" name="q">
+      <button name="submit" class="greenButton" type="submit">Search</button>
+    </form>
+  </div>
+  <img class="logomark" width="40" src="/logomark.png">
+  <script src="https://www.google-analytics.com/ga.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker('UA-2322480-5');
+      pageTracker._trackPageview('/404');
+    } catch(err) {}
+  </script>
+</body>
+</html>
+'):
+  
+app/controllers/sessions_controller.rb:14:in `create'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___177810292436255423_70336696069180 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (97.8ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (217.1ms)
+Started GET "/auth?code=5QIZMT1AOAMRFK0HIZCGLDBB1EJ0ZMJODMATUWLWEPRKUNUB" for ::1 at 2019-09-25 04:56:47 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5QIZMT1AOAMRFK0HIZCGLDBB1EJ0ZMJODMATUWLWEPRKUNUB"}
+Completed 500 Internal Server Error in 150238ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<html>
+<head>
+<title>foursquare</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+body,html {height: 100%;}
+body {
+  background: #ffffff;
+  color: #4c4c4c;
+  font: 13px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0cbadf;
+  text-decoration: none;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#container {
+  height: 230px;
+  margin: -165px auto 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 32em;
+}
+.logomark {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  bottom: 20px;
+  display: block;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.wordmark {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.formStyle {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  background: #fcfcfc;
+  border: 1px solid #d9d9d9;
+  color: #4c4c4c;
+  font-family: inherit;
+  font-size: 13px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  padding: 7px;
+  width: 220px;
+  -moz-transition-duration: .33s;
+  -moz-transition-property: background, border, color, opacity, box-shadow;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, border, color, opacity, box-shadow;
+  transition-duration: .33s;
+  transition-property: background, border, color, opacity, box-shadow;
+}
+.formStyle:hover {border: 1px solid #bbb;}
+.formStyle:focus {
+  background: #fefefe;
+  border: 1px solid #b3b3b3;
+  color: #333;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.greenButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #A7E300;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100));
+  background: -moz-linear-gradient(top,  #A7E300,  #99D100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7E300', endColorstr='#99D100');
+  border: 1px solid #87b800;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+  text-transform: uppercase;
+}
+.greenButton:hover {
+  background: #b2eb14;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2eb14), to(#a4da14));
+  background: -moz-linear-gradient(top,  #b2eb14,  #a4da14);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb14', endColorstr='#a4da14');
+}
+.greenButton:active {
+  background: #99D100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#99D100), to(#A7E300));
+  background: -moz-linear-gradient(top,  #99D100,  #A7E300);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99D100', endColorstr='#A7E300');
+}
+@-webkit-keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;transform:none
+  }
+}
+@keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    -ms-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    -ms-transform:none;
+    transform:none
+  }
+}
+@media screen and (max-width: 340px) {
+  #container {
+    height: auto !important;
+    margin: 40px auto 0 !important;
+    top: 0 !important;
+    width: 22em !important;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <img class="wordmark" src="/wordmark.png" />
+    <h1>We couldn't find the page you're looking for.</h1>
+    <h2>Search for great places nearby:</h2>
+    <form action="https://foursquare.com/explore" method="GET">
+      <input type="text" class="formStyle" name="q">
+      <button name="submit" class="greenButton" type="submit">Search</button>
+    </form>
+  </div>
+  <img class="logomark" width="40" src="/logomark.png">
+  <script src="https://www.google-analytics.com/ga.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker('UA-2322480-5');
+      pageTracker._trackPageview('/404');
+    } catch(err) {}
+  </script>
+</body>
+</html>
+'):
+  
+app/controllers/sessions_controller.rb:15:in `create'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___177810292436255423_70336692365500 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (82.6ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (178.9ms)
+Started GET "/" for ::1 at 2019-09-25 04:59:29 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=LXARVRCHF031YAFPQBNITCSHIAVABV5U0ZOWKMCGATW54VCV" for ::1 at 2019-09-25 04:59:35 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"LXARVRCHF031YAFPQBNITCSHIAVABV5U0ZOWKMCGATW54VCV"}
+Completed 500 Internal Server Error in 5717ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<html>
+<head>
+<title>foursquare</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+body,html {height: 100%;}
+body {
+  background: #ffffff;
+  color: #4c4c4c;
+  font: 13px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0cbadf;
+  text-decoration: none;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#container {
+  height: 230px;
+  margin: -165px auto 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 32em;
+}
+.logomark {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  bottom: 20px;
+  display: block;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.wordmark {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.formStyle {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  background: #fcfcfc;
+  border: 1px solid #d9d9d9;
+  color: #4c4c4c;
+  font-family: inherit;
+  font-size: 13px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  padding: 7px;
+  width: 220px;
+  -moz-transition-duration: .33s;
+  -moz-transition-property: background, border, color, opacity, box-shadow;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, border, color, opacity, box-shadow;
+  transition-duration: .33s;
+  transition-property: background, border, color, opacity, box-shadow;
+}
+.formStyle:hover {border: 1px solid #bbb;}
+.formStyle:focus {
+  background: #fefefe;
+  border: 1px solid #b3b3b3;
+  color: #333;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.greenButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #A7E300;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100));
+  background: -moz-linear-gradient(top,  #A7E300,  #99D100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7E300', endColorstr='#99D100');
+  border: 1px solid #87b800;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+  text-transform: uppercase;
+}
+.greenButton:hover {
+  background: #b2eb14;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2eb14), to(#a4da14));
+  background: -moz-linear-gradient(top,  #b2eb14,  #a4da14);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb14', endColorstr='#a4da14');
+}
+.greenButton:active {
+  background: #99D100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#99D100), to(#A7E300));
+  background: -moz-linear-gradient(top,  #99D100,  #A7E300);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99D100', endColorstr='#A7E300');
+}
+@-webkit-keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;transform:none
+  }
+}
+@keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    -ms-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    -ms-transform:none;
+    transform:none
+  }
+}
+@media screen and (max-width: 340px) {
+  #container {
+    height: auto !important;
+    margin: 40px auto 0 !important;
+    top: 0 !important;
+    width: 22em !important;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <img class="wordmark" src="/wordmark.png" />
+    <h1>We couldn't find the page you're looking for.</h1>
+    <h2>Search for great places nearby:</h2>
+    <form action="https://foursquare.com/explore" method="GET">
+      <input type="text" class="formStyle" name="q">
+      <button name="submit" class="greenButton" type="submit">Search</button>
+    </form>
+  </div>
+  <img class="logomark" width="40" src="/logomark.png">
+  <script src="https://www.google-analytics.com/ga.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker('UA-2322480-5');
+      pageTracker._trackPageview('/404');
+    } catch(err) {}
+  </script>
+</body>
+</html>
+'):
+  
+app/controllers/sessions_controller.rb:15:in `create'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.0ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___177810292436255423_70336698379520 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (75.1ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (169.7ms)
+Started GET "/" for ::1 at 2019-09-25 05:03:01 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JKCLVA1VNKDSVQSE3TBBPLMBAEHITPGH2GMTW5M5DINWB3LL" for ::1 at 2019-09-25 05:03:17 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"JKCLVA1VNKDSVQSE3TBBPLMBAEHITPGH2GMTW5M5DINWB3LL"}
+Completed 500 Internal Server Error in 227035ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<html>
+<head>
+<title>foursquare</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+body,html {height: 100%;}
+body {
+  background: #ffffff;
+  color: #4c4c4c;
+  font: 13px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0cbadf;
+  text-decoration: none;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#container {
+  height: 230px;
+  margin: -165px auto 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 32em;
+}
+.logomark {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  bottom: 20px;
+  display: block;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.wordmark {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.formStyle {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  background: #fcfcfc;
+  border: 1px solid #d9d9d9;
+  color: #4c4c4c;
+  font-family: inherit;
+  font-size: 13px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  padding: 7px;
+  width: 220px;
+  -moz-transition-duration: .33s;
+  -moz-transition-property: background, border, color, opacity, box-shadow;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, border, color, opacity, box-shadow;
+  transition-duration: .33s;
+  transition-property: background, border, color, opacity, box-shadow;
+}
+.formStyle:hover {border: 1px solid #bbb;}
+.formStyle:focus {
+  background: #fefefe;
+  border: 1px solid #b3b3b3;
+  color: #333;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.greenButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #A7E300;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100));
+  background: -moz-linear-gradient(top,  #A7E300,  #99D100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7E300', endColorstr='#99D100');
+  border: 1px solid #87b800;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+  text-transform: uppercase;
+}
+.greenButton:hover {
+  background: #b2eb14;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2eb14), to(#a4da14));
+  background: -moz-linear-gradient(top,  #b2eb14,  #a4da14);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb14', endColorstr='#a4da14');
+}
+.greenButton:active {
+  background: #99D100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#99D100), to(#A7E300));
+  background: -moz-linear-gradient(top,  #99D100,  #A7E300);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99D100', endColorstr='#A7E300');
+}
+@-webkit-keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;transform:none
+  }
+}
+@keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    -ms-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    -ms-transform:none;
+    transform:none
+  }
+}
+@media screen and (max-width: 340px) {
+  #container {
+    height: auto !important;
+    margin: 40px auto 0 !important;
+    top: 0 !important;
+    width: 22em !important;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <img class="wordmark" src="/wordmark.png" />
+    <h1>We couldn't find the page you're looking for.</h1>
+    <h2>Search for great places nearby:</h2>
+    <form action="https://foursquare.com/explore" method="GET">
+      <input type="text" class="formStyle" name="q">
+      <button name="submit" class="greenButton" type="submit">Search</button>
+    </form>
+  </div>
+  <img class="logomark" width="40" src="/logomark.png">
+  <script src="https://www.google-analytics.com/ga.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker('UA-2322480-5');
+      pageTracker._trackPageview('/404');
+    } catch(err) {}
+  </script>
+</body>
+</html>
+'):
+  
+app/controllers/sessions_controller.rb:15:in `create'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (100.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___177810292436255423_70336698416540 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.7ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (190.3ms)
+Started GET "/" for ::1 at 2019-09-25 05:08:10 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=BPSMZ21CVKOS24YHQZVUW23KSDLNGY31H55ZOP4B4UP05XP0" for ::1 at 2019-09-25 05:08:19 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"BPSMZ21CVKOS24YHQZVUW23KSDLNGY31H55ZOP4B4UP05XP0"}
+Completed 500 Internal Server Error in 87616ms (ActiveRecord: 0.0ms)
+
+
+  
+JSON::ParserError (784: unexpected token at '<!DOCTYPE html>
+<html>
+<head>
+<title>foursquare</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+body,html {height: 100%;}
+body {
+  background: #ffffff;
+  color: #4c4c4c;
+  font: 13px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0cbadf;
+  text-decoration: none;
+}
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#container {
+  height: 230px;
+  margin: -165px auto 0;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 32em;
+}
+.logomark {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  bottom: 20px;
+  display: block;
+  left: 50%;
+  margin: 0 auto;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 2;
+}
+.wordmark {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+.formStyle {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  -webkit-box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  box-shadow: inset rgba(0,0,0,.1) 0 0 3px;
+  background: #fcfcfc;
+  border: 1px solid #d9d9d9;
+  color: #4c4c4c;
+  font-family: inherit;
+  font-size: 13px;
+  margin: 0 10px 10px 0;
+  outline: none;
+  padding: 7px;
+  width: 220px;
+  -moz-transition-duration: .33s;
+  -moz-transition-property: background, border, color, opacity, box-shadow;
+  -webkit-transition-duration: .33s;
+  -webkit-transition-property: background, border, color, opacity, box-shadow;
+  transition-duration: .33s;
+  transition-property: background, border, color, opacity, box-shadow;
+}
+.formStyle:hover {border: 1px solid #bbb;}
+.formStyle:focus {
+  background: #fefefe;
+  border: 1px solid #b3b3b3;
+  color: #333;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.greenButton {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #A7E300;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A7E300), to(#99D100));
+  background: -moz-linear-gradient(top,  #A7E300,  #99D100);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7E300', endColorstr='#99D100');
+  border: 1px solid #87b800;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 10px;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.1) 0 -1px 0;
+  text-transform: uppercase;
+}
+.greenButton:hover {
+  background: #b2eb14;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2eb14), to(#a4da14));
+  background: -moz-linear-gradient(top,  #b2eb14,  #a4da14);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2eb14', endColorstr='#a4da14');
+}
+.greenButton:active {
+  background: #99D100;
+  background: -webkit-gradient(linear, left top, left bottom, from(#99D100), to(#A7E300));
+  background: -moz-linear-gradient(top,  #99D100,  #A7E300);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99D100', endColorstr='#A7E300');
+}
+@-webkit-keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;transform:none
+  }
+}
+@keyframes fadeInDown{
+  0%{
+    opacity:0;
+    -webkit-transform:translate3d(0, -25px, 0);
+    -ms-transform:translate3d(0, -25px, 0);
+    transform:translate3d(0, -25px, 0)
+  }
+  100%{
+    opacity:1;
+    -webkit-transform:none;
+    -ms-transform:none;
+    transform:none
+  }
+}
+@media screen and (max-width: 340px) {
+  #container {
+    height: auto !important;
+    margin: 40px auto 0 !important;
+    top: 0 !important;
+    width: 22em !important;
+  }
+}
+</style>
+</head>
+<body>
+  <div id="container">
+    <img class="wordmark" src="/wordmark.png" />
+    <h1>We couldn't find the page you're looking for.</h1>
+    <h2>Search for great places nearby:</h2>
+    <form action="https://foursquare.com/explore" method="GET">
+      <input type="text" class="formStyle" name="q">
+      <button name="submit" class="greenButton" type="submit">Search</button>
+    </form>
+  </div>
+  <img class="logomark" width="40" src="/logomark.png">
+  <script src="https://www.google-analytics.com/ga.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker('UA-2322480-5');
+      pageTracker._trackPageview('/404');
+    } catch(err) {}
+  </script>
+</body>
+</html>
+'):
+  
+app/controllers/sessions_controller.rb:15:in `create'
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers__ose__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb___2471206784599976424_70170906778500 at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (97.5ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Jose/.rvm/gems/ruby-2.4.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (207.6ms)
+Started GET "/" for ::1 at 2019-09-25 05:10:18 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/Jose/.rvm/gems/ruby-2.4.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=SFM4P1MG0ARA2FUWLMPT0HZ4CYRO3FFWSVVJFPJILZRPHQKF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=HAODO4NVYCGABKIUV2WJAIVZ3SHB1KHVACU055ZNUAYF1NSD" for ::1 at 2019-09-25 05:10:22 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"HAODO4NVYCGABKIUV2WJAIVZ3SHB1KHVACU055ZNUAYF1NSD"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 4158ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-25 05:10:26 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 229ms (Views: 225.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-09-25 05:10:44 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1206ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
